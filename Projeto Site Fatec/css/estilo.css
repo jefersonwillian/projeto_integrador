@@ -1,0 +1,220 @@
+@charset "UTF-8";
+
+/* Código em css para o site C.fonte*/
+
+/* Corpo do site */
+html {
+    line-height: 1.5;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    color: rgba(0,0,0,0.87);    
+}
+
+
+article {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.article_index {
+     text-align: center;
+     margin-bottom: 20px;  
+}
+
+
+/*Menu de navegação do site */
+
+header {
+    background-color: #FFD700;
+}
+.navbar-default {
+    background-color: #FFD700;  
+    border: none; 
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #000;
+    font-size: 16px;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgba(10,23,55,0.5);
+}
+
+.navbar-right {
+    color: #fff;
+}
+
+nav {
+    background-color: yellow;
+}
+
+.logo {
+    background-color: blueviolet;
+}
+
+/*Rodape do site - manipula o rodape de todas as páginas do site*/
+footer {
+    background-color: #3a3a3a;
+    color: #757575;
+}
+
+.small {
+    color: #757575;
+    background-color: #000;
+    font-size: 15px;
+    padding-left: 50px;
+}
+
+.footer {
+    background-color: #3a3a3a;
+    clear: both;
+}
+
+.mapa {
+    text-align: center;
+    color: #fff;
+}
+
+.mapa a {
+    color: #757575;
+}
+
+.mapa a:hover {
+    font-size: 15px;
+    color: #fff;
+}
+
+.mapa h5 {
+    font-weight: bold;
+}
+
+.img-responsive {
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+/* Formulario de contato */
+
+input,textarea {
+    border: none;
+    width: 100%;
+}
+
+button {
+    margin-left: 30px;
+}
+
+/* Pra dispositivos que tem uma largura mínima de 300px.*/
+@media screen and (min-width: 300px) {
+    body div div header nav div a img {
+        margin-top: -5px;
+    }
+  label {
+        font-weight: bold;
+        border-bottom: 1px solid #9e9e9e;
+        font-size: 15px; 
+        width: 100%;
+    }
+
+    .campoform {
+        margin: 10px;
+        margin-bottom: 20px;    
+    }
+
+    nav {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    footer div div {
+        margin-left: -5%;
+        margin-right: 0%;
+    }
+
+    .h1-index {
+        text-transform: uppercase;
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+/* Pra dispositivos que tem uma largura mínima de 768px.*/
+@media screen and (min-width: 768px) {
+    body div div header nav div a img {
+        margin-top: -5px;
+    }
+
+  label {
+        font-weight: bold;
+        border-bottom: 1px solid #9e9e9e;
+        font-size: 17px; 
+        width: 100%;
+    }
+
+    .campoform {
+        margin: 10px;
+        margin-bottom: 25px;
+    }
+
+    nav {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    footer div div {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .h1-index {
+        text-transform: uppercase;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    section {
+        height: 480px;
+    }
+}
+/* Pra dispositivos que tem uma largura mínima de 998px.*/
+@media screen and (min-width: 998px) {
+    
+    body div div header nav div a img {
+        margin-top: -5px;
+    }
+
+    label {
+        font-weight: bold;
+        border-bottom: 1px solid #9e9e9e;
+        font-size: 24px;  
+        width: 100%;  
+    }
+    .campoform {
+        margin: 40px;
+    }
+
+    nav {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    footer div div {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .h1-index {
+        text-transform: uppercase;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    section {
+        height: 450px;
+    }
+}
